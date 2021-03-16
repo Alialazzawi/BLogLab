@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+//  lkjlkjkl
+
+
 
 namespace BlogLab.Models.BlogComment
 {
