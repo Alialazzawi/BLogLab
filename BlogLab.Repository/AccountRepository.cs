@@ -1,6 +1,6 @@
 ﻿using BlogLab.Models.Account;
 using Dapper;
-using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -13,12 +13,12 @@ using System.Threading.Tasks;
 namespace BlogLab.Repository
 {
 
-    public class AccountRerpository : IAccountRerpository
+    public class AccountRepository : IAccountRepository
     {
 
         private readonly IConfiguration _config;
 
-        public AccountRerpository(IConfiguration config)
+        public AccountRepository(IConfiguration config)
         {
             _config = config;
         }
@@ -27,6 +27,10 @@ namespace BlogLab.Repository
         public async Task<IdentityResult> CreateAsync(ApplicationUserIdentity user, CancellationToken cancellationToken)
         {
             cancellationToken.ThrowIfCancellationRequested();
+
+
+
+
 
             var dataTable = new DataTable();
             dataTable.Columns.Add("Username", typeof(string));
