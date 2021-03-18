@@ -1,33 +1,32 @@
-﻿
-using BlogLab.Models.Account;
+﻿using BlogLab.Models.Account;
+using BlogLab.Repository;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using BlogLab.Repository;
-using Microsoft.AspNetCore.Identity;
 
-namespace BolgLab.Identity
+namespace BlogLab.Identity
 {
-    class UserStore :
-        IUserStore<ApplicationUserIdentity>,
-        IUserEmailStore<ApplicationUserIdentity>,
-        IUserPasswordStore<ApplicationUserIdentity>
+    public class UserStore :
+            IUserStore<ApplicationUserIdentity>,
+           IUserEmailStore<ApplicationUserIdentity>,
+           IUserPasswordStore<ApplicationUserIdentity>
     {
-        private readonly IAccountRepository _accountRepository;
+        private readonly IAccountRepository _accountRepsoitory;
 
         public UserStore(IAccountRepository accountRepository)
         {
-            _accountRepository = accountRepository;
+            _accountRepsoitory = accountRepository;
         }
 
         public async Task<IdentityResult> CreateAsync(ApplicationUserIdentity user, CancellationToken cancellationToken)
         {
-            return await _accountRepository.CreateAsync(user, cancellationToken);
+            return await _accountRepsoitory.CreateAsync(user, cancellationToken);
         }
 
         public async Task<ApplicationUserIdentity> FindByNameAsync(string normalizedUserName, CancellationToken cancellationToken)
         {
-            return await _accountRepository.GetByUsernameAsync(normalizedUserName, cancellationToken);
+            return await _accountRepsoitory.GetByUsernameAsync(normalizedUserName, cancellationToken);
         }
 
         public Task<IdentityResult> DeleteAsync(ApplicationUserIdentity user, CancellationToken cancellationToken)
@@ -129,7 +128,6 @@ namespace BolgLab.Identity
         {
             // Nothing to dispose
         }
-
 
     }
 }
