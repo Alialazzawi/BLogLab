@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\BlogLab\BlogLab.Web\obj\Debug\netcoreapp3.1\BlogLab.Web.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\BlogLab\BlogLab.Web\obj\Debug\netcoreapp3.1\BlogLab.Web.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\BlogLab\BlogLab.Web\obj\Debug\netcoreapp3.1\BlogLab.Web.AssemblyInfo.cs
+C:\Users\HP\Desktop\BlogLab\BlogLab.Web\obj\Debug\netcoreapp3.1\BlogLab.Web.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\BlogLab\BlogLab.Web\obj\Debug\netcoreapp3.1\BlogLab.Web.MvcApplicationPartsAssemblyInfo.cache

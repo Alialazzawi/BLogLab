@@ -1,0 +1,9 @@
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\bin\Debug\netcoreapp3.1\BlogLab.Models.deps.json
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\bin\Debug\netcoreapp3.1\BlogLab.Models.dll
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\bin\Debug\netcoreapp3.1\BlogLab.Models.pdb
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.AssemblyInfo.cs
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.dll
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.pdb
+C:\Users\HP\Desktop\BlogLab\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.csprojAssemblyReference.cache
