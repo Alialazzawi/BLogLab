@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj": {}
+    "C:\\Users\\HP\\Desktop\\BlogLab\\bloglab.web\\BlogLab.Web.csproj": {}
   },
   "projects": {
     "C:\\Users\\HP\\Desktop\\BlogLab\\BlogLab.Identity\\BlogLab.Identity.csproj": {
@@ -297,14 +297,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj": {
+    "C:\\Users\\HP\\Desktop\\BlogLab\\bloglab.web\\BlogLab.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\BlogLab\\bloglab.web\\BlogLab.Web.csproj",
         "projectName": "BlogLab.Web",
-        "projectPath": "C:\\Users\\HP\\Desktop\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\BlogLab\\bloglab.web\\BlogLab.Web.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\BlogLab\\BlogLab.Web\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\BlogLab\\bloglab.web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

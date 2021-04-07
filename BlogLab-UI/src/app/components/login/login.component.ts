@@ -19,8 +19,6 @@ export class LoginComponent implements OnInit {
     private formBuilder: FormBuilder
   ) { 
 
-
-/*********************/ */
     if (this.accountService.isLoggedIn()) {
       this.router.navigate(['/dashboard']);
     }
